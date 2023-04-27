@@ -3,7 +3,7 @@ package data
 import models.Customers
 import models.Employee
 import models.Order
-import models.clothes
+import models.Clothes
 import java.nio.file.Files
 import java.nio.file.Paths
 
@@ -21,7 +21,7 @@ class DataSourceImpl :DataSource {
         TODO("Not yet implemented")
     }
 
-    override fun getClothes(): List<clothes> {
+    override fun getClothes(): List<Clothes> {
         TODO("Not yet implemented")
     }
 

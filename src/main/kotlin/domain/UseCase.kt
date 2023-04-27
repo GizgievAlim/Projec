@@ -1,9 +1,9 @@
 package domain
 
-import models.clothesView
+import models.СlothesType
 
 interface UseCase {
     fun getClothesById(id :Long)
-    fun getClothesByView(view :clothesView)
-    fun getClothesCount(view:clothesView) :Int
+    fun getClothesByType(view :СlothesType)
+    fun getClothesCount(view:СlothesType) :Int
 }
