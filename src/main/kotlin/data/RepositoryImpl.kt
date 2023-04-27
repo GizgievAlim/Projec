@@ -3,7 +3,7 @@ package data
 import domain.Repository
 
 class RepositoryImpl(private val dataSource: DataSource) : Repository {
-    override fun getMostPopularClothesView() {
+    override fun getMostPopularClothesType() {
         TODO("Not yet implemented")
     }
 

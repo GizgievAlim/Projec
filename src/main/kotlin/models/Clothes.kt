@@ -1,8 +1,8 @@
 package models
 
-data class clothes (
+data class Clothes (
     val name :String,
     val id :Long,
     val price :Double,
-    val view: clothesView
+    val view: СlothesType
 )

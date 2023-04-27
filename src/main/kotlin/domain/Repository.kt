@@ -1,7 +1,7 @@
 package domain
 
 interface Repository {
-    fun getMostPopularClothesView()
+    fun getMostPopularClothesType()
     fun getBestEmployeeCountSales()
     fun getBestEmployeeSumSales()
 }
